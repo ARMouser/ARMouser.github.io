@@ -1,0 +1,133 @@
+body {
+    background-color:rgba(47, 137, 158, 0.76);
+    width:100%;
+    height:100%;
+    font-family: 'Merriweather', serif;
+}
+
+#indexHeader {
+    color:white;
+    font-size:52px;
+    margin-top:20%;
+    margin-left:29%;
+    letter-spacing: 3px;
+}
+
+#indexLinks {
+    font-size:32px;
+    margin-top:10%;
+    margin-left:17%;
+}
+
+#index2 {
+    position:relative;
+    top:-32px;
+    margin-left:28%;
+}
+
+#index3 {
+    position:relative;
+    top:-64px;
+    margin-left:55%;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgba(202, 202, 202, 0.89);
+    text-decoration: underline;
+}
+
+#navHeader {
+    margin:20px 0px 0px 20px;
+    font-size:32px;
+    color:white;
+}
+
+#nav1 {
+    font-size:20px;
+    position:relative;
+    top:-24px;
+    left:275px;
+}
+
+#nav2 {
+    font-size:20px;
+    position:relative;
+    top:-44px;
+    left:375px;
+}
+
+#nav3 {
+    font-size:20px;
+    position:relative;
+    top:-64px;
+    left:475px;
+}
+
+#contactHead{
+    font-size:44px;
+}
+
+#contactSub {
+    font-size:18px;
+    margin:5%;
+    line-height: 30px;
+}
+
+form {
+    padding-top:5%;
+   	padding-left:5%;
+}
+
+.formLabel {
+    font-size:20px;
+}
+
+#cName, #cEmail {
+    margin-top:2%;
+    margin-bottom:4%;
+    max-height: 40px;
+    max-width:300px;
+    width:40%;
+    height:8%;
+    font-size:18px;
+}
+
+#message{
+    margin-top:2%;
+    width:60%;
+    max-width:600px;
+    height:15%;
+    font-size:18px;
+    padding:2%;
+}
+
+.main {
+    margin:10% 20% 5% 20%;
+    font-family: 'Merriweather', serif;
+    color:white;
+}
+
+#submit {
+    font-size:20px;
+    padding:1%;
+    width:10%;
+    height:5%
+}
+
+#submit:hover {
+    background-color:rgba(47, 137, 158, 0.76);
+    color:white;
+    padding:1%;
+    width:10%;
+    height:5%
+}

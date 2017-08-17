@@ -1,0 +1,40 @@
+<html lang='en-us'>
+        <head>
+            <title>
+                ARMouser || Contact
+            </title>
+
+            <link rel='stylesheet' href='./assets/css/reset.css'>
+            <link rel='stylesheet' href='./assets/css/style.css'>
+            <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        </head>
+
+        <body>
+            <header id='navHeader'>
+                <a href='/'>ARMouser</a>
+            </header>
+            
+            <ul class='navLinks'>
+                <li id='nav1'><a href='/projects'>Projects</a></li>
+                <li id='nav2'><a href='/resume'>Resume</a></li>
+                <li id='nav3'><a href='/contact'>Contact</a></li>
+            </ul>
+
+            <div class='main'>
+                <span id='contactHead'> Contact Me </span>
+                <h3 id='contactSub'> Feel Free to reach out to me via Facebook or LinkedIn, email me directly or simply send me a message with the form below </h3>
+                <form
+                    action="/api/email"
+                    method="post">
+                        <span class='formLabel'>Name:</span><br>
+                        <input type='text' name="name" placeholder='Full Name Here' id='cName'><br><br>
+                        <span class='formLabel'>Email to Reach you at:</span> <br>
+                        <input type='text' name='email' placeholder='Email' id='cEmail'><br><br>
+                        <span class='formLabel'>Message:</span><br>
+                        <textarea name='message' id='message'> </textarea><br><br>
+                        <input type='submit' id='submit' placeholder="Submit">
+                </form>
+            <script src="./assets/javascript/app.js"></script>
+        </body>
+</html>
